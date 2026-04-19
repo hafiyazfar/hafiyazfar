@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hafiy Azfar | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Nav -->
+  <header class="nav">
+    <span class="nav-logo">Hafiy Azfar</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero-wrapper">
+    <!-- Background slideshow — set your image paths here -->
+    <div class="hero-slideshow">
+      <div class="slide active" style="background-image: url('images/hackathon.jpeg')"></div>
+      <div class="slide" style="background-image: url('images/hackathon-first.jpg')"></div>
+      <div class="slide" style="background-image: url('images/hackathon2.jpg')"></div>
+      <div class="slide" style="background-image: url('images/hafiy2.jpg')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+
+    <section class="hero">
+      <div class="hero-pill">Software Engineering · UPM</div>
+      <h1>Hello, I'm<br><em>Hafiy Azfar</em></h1>
+      <p class="hero-sub">Software engineering student with a passion for building clean, practical software — from mobile apps to web systems.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View projects</a>
+        
+      </div>
+    </section>
+
+    <!-- Slide indicator dots -->
+    <div class="slide-dots" id="slideDots"></div>
+  </div>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="section-meta">
+      <span class="section-label">About</span>
+      <div class="section-line"></div>
+    </div>
+    <h2 class="section-title">Who I am</h2>
+    <p class="about-text">
+      Energetic and detail-oriented Software Engineering student at University Putra Malaysia (UPM),
+      with strong foundations in problem-solving, analytical thinking, and technical proficiency.
+      Passionate about integrating software solutions into business operations to enhance productivity and user experience.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" id="skills">
+    <div class="section-meta">
+      <span class="section-label">Skills</span>
+      <div class="section-line"></div>
+    </div>
+    <h2 class="section-title">Technical skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h4>Languages</h4>
+        <p>Python, Java, C</p>
+      </div>
+      <div class="skill-card">
+        <h4>Web & Mobile</h4>
+        <p>HTML, CSS, JavaScript, Node.js, React.js, Laravel, Flutter</p>
+      </div>
+      <div class="skill-card">
+        <h4>Database</h4>
+        <p>MySQL, Firestore</p>
+      </div>
+      <div class="skill-card">
+        <h4>Tools</h4>
+        <p>VS Code, Git</p>
+      </div>
+      <div class="skill-card">
+        <h4>Soft Skills</h4>
+        <p>Leadership, Teamwork, Adaptability</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="section-meta">
+      <span class="section-label">Projects</span>
+      <div class="section-line"></div>
+    </div>
+    <h2 class="section-title">Web & mobile work</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="proj-icon">📦</div>
+        <h4>Inventory management system</h4>
+        <p>A prototype web app for inventory tracking with database integration and user-friendly interface design.</p>
+        <div class="proj-tags">
+          <span class="tag">HTML/CSS</span>
+          <span class="tag">PHP</span>
+          <span class="tag">MySQL</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="proj-icon">🎓</div>
+        <h4>Digital certificate repository</h4>
+        <p>Flutter mobile app for managing digital certificates with Google OAuth, role-based access, and Firestore.</p>
+        <div class="proj-tags">
+          <span class="tag">Flutter</span>
+          <span class="tag">Firestore</span>
+          <span class="tag">OAuth</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="proj-icon">🌽</div>
+        <h4>Corn farming advisory app</h4>
+        <p>Mobile app helping farmers diagnose crop issues and get fertilizer recommendations for real-world needs.</p>
+        <div class="proj-tags">
+          <span class="tag">Flutter</span>
+          <span class="tag">Agriculture</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="proj-icon">🖥</div>
+        <h4>Personal portfolio website</h4>
+        <p>Responsive portfolio site showcasing skills and projects, built from scratch with modern web technologies.</p>
+        <div class="proj-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section" id="education">
+    <div class="section-meta">
+      <span class="section-label">Education</span>
+      <div class="section-line"></div>
+    </div>
+    <h2 class="section-title">Academic background</h2>
+    <div class="timeline">
+
+      <div class="tl-item">
+        <span class="tl-date">2020 – 2022</span>
+        <div class="tl-spine"><div class="tl-dot"></div><div class="tl-bar"></div></div>
+        <div class="tl-content">
+          <h4>SMT Tuanku Ja'afar</h4>
+          <p>SPM — 9A's</p>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <span class="tl-date">2022 – 2023</span>
+        <div class="tl-spine"><div class="tl-dot"></div><div class="tl-bar"></div></div>
+        <div class="tl-content">
+          <h4>University Technology Mara (UiTM)</h4>
+          <p>Foundation in Engineering</p>
+          <span class="tl-badge">Dean's List</span>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <span class="tl-date">2023 – Present</span>
+        <div class="tl-spine"><div class="tl-dot"></div><div class="tl-bar"></div></div>
+        <div class="tl-content">
+          <h4>University Putra Malaysia (UPM)</h4>
+          <p>Degree in Software Engineering</p>
+          <span class="tl-badge">Dean's List</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="section-meta">
+      <span class="section-label">Contact</span>
+      <div class="section-line"></div>
+    </div>
+    <h2 class="section-title">Get in touch</h2>
+    <p class="contact-intro">Open to collaborations, internships, and new opportunities.</p>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h4>Email</h4>
+        <a href="mailto:Hafiyazfar05@gmail.com">Hafiyazfar05@gmail.com</a>
+      </div>
+      <div class="contact-card">
+        <h4>Phone</h4>
+        <p>+60 11-6412 8493</p>
+      </div>
+      <div class="contact-card">
+        <h4>LinkedIn</h4>
+        <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank">linkedin.com/in/hafiy</a>
+      </div>
+      <div class="contact-card">
+        <h4>GitHub</h4>
+        <a href="https://github.com/your-github-username" target="_blank">github.com/hafiy</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Hafiy Azfar · All rights reserved</p>
+  </footer>
+
+  <script>
+    // ── Slideshow ──
+    const slides = document.querySelectorAll('.hero-slideshow .slide');
+    const dotsContainer = document.getElementById('slideDots');
+    let current = 0;
+
+    slides.forEach((_, i) => {
+      const dot = document.createElement('button');
+      dot.className = 'slide-dot' + (i === 0 ? ' active' : '');
+      dot.setAttribute('aria-label', 'Slide ' + (i + 1));
+      dot.addEventListener('click', () => goTo(i));
+      dotsContainer.appendChild(dot);
+    });
+
+    function goTo(index) {
+      slides[current].classList.remove('active');
+      dotsContainer.children[current].classList.remove('active');
+      current = index;
+      slides[current].classList.add('active');
+      dotsContainer.children[current].classList.add('active');
+    }
+
+    setInterval(() => goTo((current + 1) % slides.length), 4000);
+
+    // ── Scroll fade-in for sections ──
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.section').forEach(s => observer.observe(s));
+  </script>
+
+</body>
+</html>
