@@ -7,13 +7,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
 </head>
 <body>
-    <!-- sad test -->
 
   <!-- Nav -->
-  <header class="nav">
+  <nav class="nav" aria-label="Primary navigation">
     <span class="nav-logo">Hafiy Azfar</span>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
@@ -22,18 +22,18 @@
       <li><a href="#education">Education</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-  </header>
+  </nav>
 
   <!-- Hero -->
   <div class="hero-wrapper">
     <!-- Background slideshow — set your image paths here -->
-    <div class="hero-slideshow">
+    <div class="hero-slideshow" aria-hidden="true">
       <div class="slide active" style="background-image: url('images/hackathon.jpeg')"></div>
       <div class="slide" style="background-image: url('images/hackathon-first.jpg')"></div>
       <div class="slide" style="background-image: url('images/hackathon2.jpg')"></div>
       <div class="slide" style="background-image: url('images/hafiy2.jpg')"></div>
     </div>
-    <div class="hero-overlay"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
 
     <section class="hero">
       <div class="hero-pill">Software Engineering · UPM</div>
@@ -46,7 +46,7 @@
     </section>
 
     <!-- Slide indicator dots -->
-    <div class="slide-dots" id="slideDots"></div>
+    <div class="slide-dots" id="slideDots" role="group" aria-label="Hero image slides"></div>
   </div>
 
   <!-- About -->
@@ -209,11 +209,11 @@
       </div>
       <div class="contact-card">
         <h4>LinkedIn</h4>
-        <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank">linkedin.com/in/hafiy</a>
+        <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener noreferrer">linkedin.com/in/hafiy</a>
       </div>
       <div class="contact-card">
         <h4>GitHub</h4>
-        <a href="https://github.com/your-github-username" target="_blank">github.com/hafiy</a>
+        <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer">github.com/hafiy</a>
       </div>
     </div>
   </section>
@@ -222,43 +222,6 @@
   <footer class="footer">
     <p>© 2025 Hafiy Azfar · All rights reserved</p>
   </footer>
-
-  <script>
-    // ── Slideshow ──
-    const slides = document.querySelectorAll('.hero-slideshow .slide');
-    const dotsContainer = document.getElementById('slideDots');
-    let current = 0;
-
-    slides.forEach((_, i) => {
-      const dot = document.createElement('button');
-      dot.className = 'slide-dot' + (i === 0 ? ' active' : '');
-      dot.setAttribute('aria-label', 'Slide ' + (i + 1));
-      dot.addEventListener('click', () => goTo(i));
-      dotsContainer.appendChild(dot);
-    });
-
-    function goTo(index) {
-      slides[current].classList.remove('active');
-      dotsContainer.children[current].classList.remove('active');
-      current = index;
-      slides[current].classList.add('active');
-      dotsContainer.children[current].classList.add('active');
-    }
-
-    setInterval(() => goTo((current + 1) % slides.length), 4000);
-
-    // ── Scroll fade-in for sections ──
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          e.target.classList.add('visible');
-          observer.unobserve(e.target);
-        }
-      });
-    }, { threshold: 0.1 });
-
-    document.querySelectorAll('.section').forEach(s => observer.observe(s));
-  </script>
 
 </body>
 </html>
