@@ -599,6 +599,77 @@ button:focus-visible {
 }
 
 /* Skills */
+.skills-marquee {
+  position: relative;
+  overflow: hidden;
+  margin: 0 calc(50% - 50vw);
+  padding-block: 1.05rem;
+  border-block: 1px solid var(--border);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(246, 248, 251, 0.92));
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
+}
+
+.skills-track {
+  display: flex;
+  width: max-content;
+  animation: skillsMarquee 34s linear infinite;
+  will-change: transform;
+}
+
+.skills-marquee:hover .skills-track {
+  animation-play-state: paused;
+}
+
+.skills-group {
+  display: flex;
+  align-items: center;
+  gap: clamp(1.35rem, 4vw, 3.8rem);
+  padding-right: clamp(1.35rem, 4vw, 3.8rem);
+}
+
+.skill-logo {
+  flex: 0 0 auto;
+  min-width: clamp(132px, 16vw, 178px);
+  height: 78px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 1;
+  white-space: nowrap;
+  transition:
+    transform 200ms var(--ease),
+    background-color 200ms var(--ease-standard),
+    border-color 200ms var(--ease-standard),
+    box-shadow 200ms var(--ease-standard);
+}
+
+.skill-logo:hover {
+  transform: translateY(-3px);
+  border-color: var(--border);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.skill-logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 12px rgba(24, 26, 32, 0.1));
+}
+
+.skill-logo span {
+  display: inline-block;
+}
+
 .skill-card {
   min-height: 145px;
   padding: 1.25rem;
@@ -626,12 +697,13 @@ button:focus-visible {
 
 /* Projects */
 .project-card {
-  min-height: 238px;
-  padding: 1.45rem;
+  min-height: 360px;
+  padding: 0;
   cursor: default;
 }
 
 .proj-icon {
+  display: none;
   width: 42px;
   height: 42px;
   margin-bottom: 1rem;
@@ -656,8 +728,32 @@ button:focus-visible {
     0 12px 24px rgba(37, 99, 235, 0.12);
 }
 
+.project-media {
+  aspect-ratio: 16 / 9;
+  margin: 0;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-2);
+}
+
+.project-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.01);
+  transition:
+    transform 360ms var(--ease),
+    filter 260ms var(--ease-standard);
+}
+
+.project-card:hover .project-media img,
+.project-card:focus-within .project-media img {
+  transform: scale(1.045);
+  filter: saturate(1.04) contrast(1.02);
+}
+
 .project-card h4 {
-  margin-bottom: 0.55rem;
+  margin: 1.2rem 1.25rem 0.55rem;
   color: var(--text);
   font-size: 18px;
   font-weight: 800;
@@ -665,11 +761,15 @@ button:focus-visible {
   letter-spacing: 0;
 }
 
+.project-card p {
+  margin-inline: 1.25rem;
+}
+
 .proj-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
-  margin-top: 1rem;
+  margin: 1rem 1.25rem 1.3rem;
 }
 
 .tag {
@@ -878,6 +978,15 @@ button:focus-visible {
   }
 }
 
+@keyframes skillsMarquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
 .animations-ready .section {
   opacity: 0.001;
   transform: translate3d(0, 22px, 0);
@@ -1024,6 +1133,21 @@ button:focus-visible {
     font-size: 16px;
   }
 
+  .skills-marquee {
+    padding-block: 0.85rem;
+  }
+
+  .skill-logo {
+    min-width: 124px;
+    height: 68px;
+    font-size: 14px;
+  }
+
+  .skill-logo img {
+    width: 34px;
+    height: 34px;
+  }
+
   .slide-dots {
     left: 1rem;
     right: auto;
@@ -1098,6 +1222,10 @@ button:focus-visible {
     flex: 1 1 100%;
   }
 
+  .skill-logo {
+    min-width: 112px;
+  }
+
   .section {
     padding: 3.4rem 1rem;
   }
@@ -1126,6 +1254,20 @@ button:focus-visible {
     animation-iteration-count: 1 !important;
     scroll-behavior: auto !important;
     transition-duration: 1ms !important;
+  }
+
+  .skills-marquee {
+    overflow-x: auto;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .skills-track {
+    animation: none;
+  }
+
+  .skills-group[aria-hidden="true"] {
+    display: none;
   }
 
   .animations-ready .section,

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 506" role="img" aria-labelledby="title desc">
+  <title id="title">Personal portfolio website project cover</title>
+  <desc id="desc">A responsive portfolio website cover with a browser window, project cards, and mobile preview.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset="0.52" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="900" height="506" fill="url(#bg)"/>
+  <circle cx="110" cy="402" r="120" fill="#ffffff" opacity="0.55"/>
+  <circle cx="788" cy="96" r="112" fill="#ffffff" opacity="0.5"/>
+  <path d="M0 412 C130 350 250 396 390 342 C544 282 654 326 900 262 L900 506 L0 506Z" fill="#bfdbfe" opacity="0.58"/>
+
+  <g transform="translate(58 62)">
+    <text x="0" y="0" dominant-baseline="hanging" font-family="Arial, sans-serif" font-size="58" font-weight="800" fill="#172033">PORTFOLIO</text>
+    <text x="0" y="68" dominant-baseline="hanging" font-family="Arial, sans-serif" font-size="31" font-weight="700" fill="#2563eb">Responsive Website</text>
+    <text x="0" y="118" dominant-baseline="hanging" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#536173">Projects, skills, and contact showcase</text>
+  </g>
+
+  <g transform="translate(304 92)" filter="url(#shadow)">
+    <rect x="0" y="0" width="468" height="292" rx="24" fill="#111827"/>
+    <rect x="18" y="42" width="432" height="230" rx="14" fill="#ffffff"/>
+    <circle cx="36" cy="22" r="6" fill="#ef4444"/>
+    <circle cx="58" cy="22" r="6" fill="#f59e0b"/>
+    <circle cx="80" cy="22" r="6" fill="#22c55e"/>
+    <rect x="44" y="70" width="160" height="20" rx="10" fill="#bfdbfe"/>
+    <rect x="44" y="110" width="260" height="14" rx="7" fill="#e2e8f0"/>
+    <rect x="44" y="140" width="218" height="14" rx="7" fill="#e2e8f0"/>
+    <rect x="44" y="182" width="98" height="34" rx="8" fill="url(#accent)"/>
+    <rect x="244" y="72" width="168" height="126" rx="18" fill="#dbeafe"/>
+    <rect x="268" y="96" width="74" height="12" rx="6" fill="#60a5fa"/>
+    <rect x="268" y="126" width="116" height="12" rx="6" fill="#ffffff"/>
+    <rect x="268" y="156" width="88" height="12" rx="6" fill="#ffffff"/>
+
+    <rect x="386" y="134" width="126" height="220" rx="28" fill="#172033"/>
+    <rect x="398" y="166" width="102" height="156" rx="14" fill="#ffffff"/>
+    <rect x="414" y="190" width="70" height="12" rx="6" fill="#bfdbfe"/>
+    <rect x="414" y="222" width="70" height="54" rx="12" fill="#dbeafe"/>
+    <rect x="414" y="292" width="52" height="10" rx="5" fill="#cbd5e1"/>
+  </g>
+</svg>

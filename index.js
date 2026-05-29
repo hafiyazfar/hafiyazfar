@@ -71,6 +71,7 @@ function getRevealItems() {
     '.section-meta',
     '.section-title',
     '.about-text',
+    '.skills-marquee',
     '.contact-intro',
     '.skill-card',
     '.project-card',
