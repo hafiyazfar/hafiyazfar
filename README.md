@@ -1,5 +1,7 @@
 <div align="center">
-  <h1>Hey, I'm Hafiy Azfar 👋</h1>
+  <div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Hey%2C+I'm+Hafiy+Azfar+%F0%9F%91%8B;Software+Engineering+Student;Flutter+%7C+AWS+%7C+AI+%26+IoT+Builder" alt="Typing SVG" />
+</div>
   <p><em>Software Engineering Student · Flutter & Cloud Enthusiast</em></p>
   <p>
     <a href="https://www.linkedin.com/in/hafiy-azfar-4311982b5">
