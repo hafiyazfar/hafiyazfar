@@ -43,7 +43,9 @@ I bridge **clean code** and **real-world impact** — with a focus on how AI and
 ---
 
 ## 📊 GitHub Stats
-
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hafiyazfar&theme=react-dark&hide_border=true" alt="Contribution Graph" />
+</p>
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=hafiyazfar&theme=tokyonight&hide_border=true" height="180" alt="GitHub Streak" />
 </p>
