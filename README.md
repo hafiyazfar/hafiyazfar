@@ -43,7 +43,7 @@ I bridge **clean code** and **real-world impact** — with a focus on how AI and
 ---
 
 ## 📊 GitHub Stats
-
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/39f60a4f919916a7c478f21acaa771b8516734abb9e6cb9f11e624513e539a8c/68747470733a2f2f6769746875622d726561646d652d61637469766974792d67726170682e76657263656c2e6170702f67726170683f757365726e616d653d53697469466174696d616830343033267468656d653d72656163742d6461726b26686964655f626f726465723d74727565"><img src="https://camo.githubusercontent.com/39f60a4f919916a7c478f21acaa771b8516734abb9e6cb9f11e624513e539a8c/68747470733a2f2f6769746875622d726561646d652d61637469766974792d67726170682e76657263656c2e6170702f67726170683f757365726e616d653d53697469466174696d616830343033267468656d653d72656163742d6461726b26686964655f626f726465723d74727565" alt="Contribution Graph" data-canonical-src="https://github-readme-activity-graph.vercel.app/graph?username=&amp;theme=react-dark&amp;hide_border=true" style="max-width: 100%;"></a></p>
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=hafiyazfar&theme=tokyonight&hide_border=true" height="180" alt="GitHub Streak" />
 </p>
