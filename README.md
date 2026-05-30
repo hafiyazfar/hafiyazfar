@@ -55,16 +55,4 @@ I bridge **clean code** and **real-world impact** — with a focus on how AI and
 </p>
 
 ---
-
-## 🤝 Let's Connect
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/hafiy-azfar-4311982b5">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:hafiyazfar05@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
-
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:378ADD,100:1a1b27&height=80&section=footer) 
