@@ -64,4 +64,5 @@ I bridge **clean code** and **real-world impact** — with a focus on how AI and
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:378ADD,100:1a1b27&height=80&section=footer)
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:378ADD,100:1a1b27&height=80&section=footer) 
