@@ -35,11 +35,11 @@ I bridge **clean code** and **real-world impact** — with a focus on how AI and
 
 <p align="center">
   <img src="[github-readme-stats.vercel.app](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github)" height="180" alt="GitHub Stats" />
-  <img src="[github-readme-stats.vercel.app](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true)" height="180" alt="Top Languages" />
+  <img src="[github-readme-stats.vercel.app](https://github-readme-stats.vercel.app/api/top-langs/?username=hafiyazfar&layout=compact&theme=tokyonight&hide_border=true)" height="180" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="[github-readme-streak-stats.herokuapp.com](https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true)" height="180" alt="GitHub Streak" />
+  <img src="[github-readme-streak-stats.herokuapp.com](https://github-readme-streak-stats.herokuapp.com/?user=hafiyazfar&theme=tokyonight&hide_border=true)" height="180" alt="GitHub Streak" />
 </p>
 
 ---
