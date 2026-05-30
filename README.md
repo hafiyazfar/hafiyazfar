@@ -1,8 +1,15 @@
 <div align="center">
   <h1>Hey, I'm Hafiy Azfar 👋</h1>
-  <p><em>Software Engineering Student</em></p>
+  <p><em>Software Engineering Student · Flutter & Cloud Enthusiast</em></p>
+  <p>
+    <a href="https://www.linkedin.com/in/hafiy-azfar-4311982b5">
+      <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
+    </a>
+    <a href="mailto:hafiyazfar05@gmail.com">
+      <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    </a>
+  </p>
 </div>
-
 ---
 
 ## 🚀 About Me
@@ -26,6 +33,10 @@ I bridge **clean code** and **real-world impact** — with a focus on how AI and
 **Backend, Architecture & Cloud**
 
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
@@ -34,12 +45,11 @@ I bridge **clean code** and **real-world impact** — with a focus on how AI and
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="[github-readme-stats.vercel.app](https://github-readme-stats.vercel.app/api?username=hafiyazfar&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github)" height="180" alt="GitHub Stats" />
-  <img src="[github-readme-stats.vercel.app](https://github-readme-stats.vercel.app/api/top-langs/?username=hafiyazfar&layout=compact&theme=tokyonight&hide_border=true)" height="180" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=hafiyazfar&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="180" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hafiyazfar&layout=compact&theme=tokyonight&hide_border=true" height="180" alt="Top Languages" />
 </p>
-
 <p align="center">
-  <img src="[github-readme-streak-stats.herokuapp.com](https://github-readme-streak-stats.herokuapp.com/?user=hafiyazfar&theme=tokyonight&hide_border=true)" height="180" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=hafiyazfar&theme=tokyonight&hide_border=true" height="180" alt="GitHub Streak" />
 </p>
 
 ---
@@ -47,10 +57,10 @@ I bridge **clean code** and **real-world impact** — with a focus on how AI and
 ## 🤝 Let's Connect
 
 <p align="left">
-  <a href="[linkedin.com](https://www.linkedin.com/in/hafiy-azfar-4311982b5)">
-    <img src="[img.shields.io](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)" />
+  <a href="https://www.linkedin.com/in/hafiy-azfar-4311982b5">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:hafiyazfar05@gmail.com">
-    <img src="[img.shields.io](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)" />
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
