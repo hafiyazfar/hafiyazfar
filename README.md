@@ -1,8 +1,8 @@
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:378ADD&height=120&section=header&text=Hafiy%20Azfar&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=65)
 <div align="center">
   <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Hey%2C+I'm+Hafiy+Azfar+%F0%9F%91%8B;Software+Engineering+Student;Flutter+%7C+AWS+%7C+AI+%26+IoT+Builder" alt="Typing SVG" />
 </div>
-  <p><em>Software Engineering Student · Flutter & Cloud Enthusiast</em></p>
   <p>
     <a href="https://www.linkedin.com/in/hafiy-azfar-4311982b5">
       <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -64,3 +64,4 @@ I bridge **clean code** and **real-world impact** — with a focus on how AI and
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:378ADD,100:1a1b27&height=80&section=footer)
