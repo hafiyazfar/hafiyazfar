@@ -45,11 +45,6 @@ I bridge **clean code** and **real-world impact** — with a focus on how AI and
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hafiyazfar/main/profile-summary-card-output/tokyonight/0-profile-details.svg" />
-  <img src="https://raw.githubusercontent.com/hafiyazfar/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" />
-  <img src="https://raw.githubusercontent.com/hafiyazfar/main/profile-summary-card-output/tokyonight/3-stats.svg" width="49%" />
-</p>
-<p align="center">
   <img src="https://streak-stats.demolab.com/?user=hafiyazfar&theme=tokyonight&hide_border=true" height="180" alt="GitHub Streak" />
 </p>
 
