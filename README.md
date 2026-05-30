@@ -34,7 +34,7 @@ I bridge **clean code** and **real-world impact** — with a focus on how AI and
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="[github-readme-stats.vercel.app](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github)" height="180" alt="GitHub Stats" />
+  <img src="[github-readme-stats.vercel.app](https://github-readme-stats.vercel.app/api?username=hafiyazfar&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github)" height="180" alt="GitHub Stats" />
   <img src="[github-readme-stats.vercel.app](https://github-readme-stats.vercel.app/api/top-langs/?username=hafiyazfar&layout=compact&theme=tokyonight&hide_border=true)" height="180" alt="Top Languages" />
 </p>
 
